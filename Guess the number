@@ -1,0 +1,9 @@
+guess = 0
+tries=0
+while guess != 6 and tries> 8:
+  guess = int(input("Guess the number:  "))
+
+print("You got it!")
+
+if guess !=8:
+  print("No More Tries")
